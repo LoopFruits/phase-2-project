@@ -1,0 +1,94 @@
+{
+  "vinyls": [
+    {
+      "id": 1,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    },
+    {
+      "id": 2,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    },
+    {
+      "id": 3,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    },
+    {
+      "id": 4,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    },
+    {
+      "id": 5,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    },
+    {
+      "id": 6,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    },
+    {
+      "id": 7,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    },
+    {
+      "id": 8,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    },
+    {
+      "id": 9,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    },
+    {
+      "id": 10,
+      "artist": "",
+      "image": "",
+      "reviews": "",
+      "genre": "",
+      "price": "",
+      "release-date": ""
+    }
+  ]
+}
