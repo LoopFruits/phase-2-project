@@ -2,16 +2,18 @@
   "vinyls": [
     {
       "id": 1,
-      "artist": "",
+      "artist": "Kendrick Lamar",
+      "album": "Good Kid, M.A.A.D City",
       "image": "",
-      "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "reviews": "Gave me insight on a world I never thought existed.",
+      "genre": "Rap/Hip Hop",
+      "price": "23.98",
+      "release-date": "10/12/2012"
     },
     {
       "id": 2,
       "artist": "",
+      "album": "",
       "image": "",
       "reviews": "",
       "genre": "",
@@ -21,6 +23,7 @@
     {
       "id": 3,
       "artist": "",
+      "album": "",
       "image": "",
       "reviews": "",
       "genre": "",
@@ -30,6 +33,7 @@
     {
       "id": 4,
       "artist": "",
+      "album": "",
       "image": "",
       "reviews": "",
       "genre": "",
@@ -39,6 +43,7 @@
     {
       "id": 5,
       "artist": "",
+      "album": "",
       "image": "",
       "reviews": "",
       "genre": "",
@@ -48,6 +53,7 @@
     {
       "id": 6,
       "artist": "",
+      "album": "",
       "image": "",
       "reviews": "",
       "genre": "",
@@ -57,6 +63,7 @@
     {
       "id": 7,
       "artist": "",
+      "album": "",
       "image": "",
       "reviews": "",
       "genre": "",
@@ -66,6 +73,7 @@
     {
       "id": 8,
       "artist": "",
+      "album": "",
       "image": "",
       "reviews": "",
       "genre": "",
@@ -75,6 +83,7 @@
     {
       "id": 9,
       "artist": "",
+      "album": "",
       "image": "",
       "reviews": "",
       "genre": "",
@@ -84,6 +93,7 @@
     {
       "id": 10,
       "artist": "",
+      "album": "",
       "image": "",
       "reviews": "",
       "genre": "",
