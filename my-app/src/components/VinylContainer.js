@@ -3,7 +3,7 @@ import VinylCard from "./VinylCard"
 
 
 function VinylContainer() {
-   const[vinyl, setVinyl] = useState([]) 
+    const[vinyl, setVinyl] = useState([]) 
     
     
     useEffect( () => {
@@ -15,7 +15,7 @@ function VinylContainer() {
     console.log(vinyl);
     
     const inventoryList = vinyl.map((item) => {
-        return  <VinylCard key={item} item={item} />
+        return  <VinylCard key={item.id} item={item}  />
     })
 
 
