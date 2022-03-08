@@ -1,20 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import VinylCard from "./VinylCard"
 
 
-function VinylContainer() {
-    const[vinyl, setVinyl] = useState([]) 
-    
-    
-    useEffect( () => {
-        fetch("http://localhost:3000/vinyls")
-        .then(resp => resp.json())
-        .then(item => setVinyl(item))
-    },[]);
-    
-    console.log(vinyl);
-    
-    const inventoryList = vinyl.map((item) => {
+function VinylContainer({ vinyls }) {
+
+    const showVinyls = vinyls.map((item) => {
         return  <VinylCard key={item.id} item={item}  />
     })
 
@@ -23,7 +13,7 @@ function VinylContainer() {
         <div class="VinylContainer">
             <h2>Current Inventory</h2>
             <div>
-                {inventoryList}
+                {showVinyls}
             </div>
         </div>
     );
