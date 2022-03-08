@@ -12,7 +12,7 @@ function VinylContainer() {
         .then(item => setVinyl(item))
     },[]);
     
-    
+    console.log(vinyl);
     
     const inventoryList = vinyl.map((item) => {
         return  <VinylCard key={item} item={item} />
