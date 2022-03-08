@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 .App-logo {
@@ -36,12 +38,29 @@
     transform: rotate(360deg);
   }
 }
+.SelectionContainer {
+  color: turquoise;
+  background-color: black;
+  height: 1000px;
+  width: 100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 600px;
+
+
+}
 .card {
+  display: inline-block;
   border: 1px solid black;
   border-radius: 4px;
   background-color: white;
-  align-items: center;
+  /* align-items: center; */
   padding:1rem;
+  /* display:grid;
+  grid-template-columns: repeat(auto-fit) minmax(100px, 1ft);
+  grid-gap:3em; */
 }
 .card img {
   width:6em;
@@ -72,4 +91,23 @@
   background: white;
   border: 1px solid #ccc;
   border-radius: 3px;
+  height: 2rem;
+}
+
+
+/* .VinylCard {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  left: 333px;
+  bottom: 570px;
+  width: 75%;
+} */
+#Vinyl-Container {
+  position:relative;
+  left:100px;
+  height: 600px;
+  overflow: hidden;
+  overflow-y: scroll;
+
 }

@@ -20,7 +20,7 @@ function VinylContainer() {
 
 
     return(
-        <div id="current-inventory">
+        <div id="Vinyl-Container">
             <h2>Current Inventory</h2>
             <div>
                 {inventoryList}
