@@ -75,7 +75,7 @@
 }
 
 .searchbar input {
-  width: 90%;
+  width: 300px;
   font-size: 1rem;
   height: 2rem;
   margin-right: 0.5rem;
@@ -111,3 +111,22 @@
   overflow-y: scroll;
 
 } */
+
+.Footer {
+  border: 1px solid green;
+  height: 250px;
+}
+
+.body {
+  display: flex;
+}
+
+.body--left {
+  border: 1px solid blue;
+  width: 20%;
+}
+
+.body--right {
+  border: 1px solid purple;
+  width: 80%;
+}

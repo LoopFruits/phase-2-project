@@ -26,10 +26,16 @@ function App() {
 
   return (
     <div class="App">
-        <Header handleSearch={setSearch} />
-        <SelectionContainerList />
-        <VinylContainer vinyls={filterVinyls} />
-        <Footer />
+      <Header handleSearch={setSearch} />
+      <div className="body">
+        <div className="body--left">
+          <SelectionContainerList />
+        </div>
+        <div className="body--right">
+          <VinylContainer vinyls={filterVinyls} />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }
