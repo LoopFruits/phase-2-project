@@ -75,7 +75,7 @@
       "artist": "Bruno Mars",
       "album": "24k Magic",
       "image": "",
-      "reviews": "",
+      "reviews": "Baby making music is all over this album",
       "genre": "Soul/R&B",
       "price": "11.88",
       "release-date": "11/18/2016"
@@ -99,6 +99,16 @@
       "genre": "Jazz Fusion",
       "price": "40.00",
       "release-date": "2/25/2014"
+    },
+    {
+      "id": 11,
+      "artist": "Daryl Hall & John Oates",
+      "album": "The Very Best Of Daryl Hall & John Oates",
+      "image": "https://en.wikipedia.org/wiki/The_Very_Best_of_Daryl_Hall_%26_John_Oates#/media/File:HallandOatesAlbumCover.jpg",
+      "reviews": "All of these songs bring me back, even shed a tear on Sara Smile",
+      "genre": "Pop",
+      "price": "20.00",
+      "release-date": "1/23/2001"
     }
   ]
 }
