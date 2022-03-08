@@ -12,93 +12,93 @@
     },
     {
       "id": 2,
-      "artist": "",
-      "album": "",
+      "artist": "Kid Cudi",
+      "album": "Man on the Moon: The End of Day",
       "image": "",
-      "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "reviews": "Close your eyes and enjoy the trip",
+      "genre": "Rap/Hip-Hop",
+      "price": "24.08",
+      "release-date": "9/15/2009"
     },
     {
       "id": 3,
-      "artist": "",
-      "album": "",
+      "artist": "Mac Miller",
+      "album": "Circles",
       "image": "",
-      "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "reviews": "Can't get enough of Mac",
+      "genre": "Rap/Hip-Hop",
+      "price": "14.43",
+      "release-date": "3/6/2020"
     },
     {
       "id": 4,
-      "artist": "",
-      "album": "",
+      "artist": "Tame Impala",
+      "album": "Currents",
       "image": "",
-      "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "reviews": "This is one of my favorite albums of the past couple years and is a must-have on vinyl. Tame Impala, the Australian psychedelic lo-fi band, has been making super crunchy music for a long time.",
+      "genre": "Rock",
+      "price": "26.75",
+      "release-date": "7/17/2015"
     },
     {
       "id": 5,
-      "artist": "",
-      "album": "",
+      "artist": "half•alive",
+      "album": "Now, Not Yet",
       "image": "",
-      "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "reviews": "I love this album. The press is good and all the sound quality is just as good as listening to the album electronically.",
+      "genre": "Rock",
+      "price": "20.69",
+      "release-date": "9/13/2019"
     },
     {
       "id": 6,
-      "artist": "",
-      "album": "",
+      "artist": "KAYTRANADA",
+      "album": "Bubba",
       "image": "",
-      "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "reviews": "I love the old school feel, all in all the album is really good.",
+      "genre": "Electronic",
+      "price": "24.08",
+      "release-date": "6/12/2020"
     },
     {
       "id": 7,
-      "artist": "",
-      "album": "",
+      "artist": "Rick James",
+      "album": "You And I",
       "image": "",
-      "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "reviews": "One of the hardest bass lines i'/ve ever heard",
+      "genre": "Funk/Soul",
+      "price": "33.32",
+      "release-date": "April 20,1978"
     },
     {
       "id": 8,
-      "artist": "",
-      "album": "",
+      "artist": "Bruno Mars",
+      "album": "24k Magic",
       "image": "",
       "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "genre": "Soul/R&B",
+      "price": "11.88",
+      "release-date": "11/18/2016"
     },
     {
       "id": 9,
-      "artist": "",
-      "album": "",
+      "artist": "John Coltrane",
+      "album": "Giant Steps",
       "image": "",
-      "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "reviews": "One day I will be able to play Giant Steps",
+      "genre": "Jazz",
+      "price": "34.80",
+      "release-date": "5/17/2013"
     },
     {
       "id": 10,
-      "artist": "",
-      "album": "",
+      "artist": "Snarky Puppy",
+      "album": "WE LIKE IT HERE",
       "image": "",
-      "reviews": "",
-      "genre": "",
-      "price": "",
-      "release-date": ""
+      "reviews": "Dude went off on Lingus ",
+      "genre": "Jazz Fusion",
+      "price": "40.00",
+      "release-date": "2/25/2014"
     }
   ]
 }
