@@ -3,16 +3,16 @@ import './App.css';
 import Header from "./components/Header";
 import SelectionContainerList from './components/SelectionContainerList';
 import VinylContainer from './components/VinylContainer';
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 // import Search from "./components/Search";
 
 function App() {
   return (
-    <div className="App">
+    <div class="App">
         <Header />
         <SelectionContainerList />
         <VinylContainer />
-        
+        <Footer />
     </div>
   );
 }

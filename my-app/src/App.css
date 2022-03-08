@@ -1,7 +1,39 @@
+
+.App-header {
+  /* background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+  grid-area: header;
+}
+.SelectionContainer {
+  grid-area: SelectionContainer;
+}
+
+
+.VinylContainer {
+  grid-area: VinylContainer;
+}
+
+.Footer {
+  grid-area: Footer;
+}
+
+
 .App {
-  text-align: center;
-  /* display: flex;
-  flex-wrap: wrap; */
+  display: grid;
+  grid-template-areas:
+  'header header header header header '
+  'SelectionContainer VinylContainer VinylContainer'
+  'SelectionContainer VinylContainer VinylContainer'
+  'SelectionContainer Footer Footer Footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
 
 .App-logo {
@@ -15,16 +47,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -101,11 +124,11 @@
   bottom: 570px;
   width: 75%;
 } */
-#Vinyl-Container {
+/* #VinylContainer {
   position:relative;
   left:100px;
   height: 600px;
   overflow: hidden;
   overflow-y: scroll;
 
-}
+} */

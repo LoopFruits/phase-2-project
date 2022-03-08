@@ -3,7 +3,7 @@ import Search from "./Search";
 function Header() {
 
 return (
-    <header className="App-header">
+    <header class ="App-header">
         <h1>
           Justin's Personal Vinyl Collection
         </h1>
