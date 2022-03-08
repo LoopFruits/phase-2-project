@@ -1,40 +1,19 @@
 
 .App-header {
-  /* background-color: #282c34;
+  background-color: #282c34;
   min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white; */
-  grid-area: header;
-}
-.SelectionContainer {
-  grid-area: SelectionContainer;
+  color: white; 
+   
 }
 
 
-.VinylContainer {
-  grid-area: VinylContainer;
-}
-
-.Footer {
-  grid-area: Footer;
-}
 
 
-.App {
-  display: grid;
-  grid-template-areas:
-  'header header header header header '
-  'SelectionContainer VinylContainer VinylContainer'
-  'SelectionContainer VinylContainer VinylContainer'
-  'SelectionContainer Footer Footer Footer';
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
 
 .App-logo {
   height: 40vmin;
