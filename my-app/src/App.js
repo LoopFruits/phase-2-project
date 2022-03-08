@@ -10,8 +10,9 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <VinylContainer />
         <SelectionContainerList />
+        <VinylContainer />
+        
     </div>
   );
 }
