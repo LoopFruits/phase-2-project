@@ -1,5 +1,5 @@
 import React from "react";
-
+import Search from "./Search";
 function Header() {
 
 return (
@@ -16,6 +16,7 @@ return (
         >
           Learn React
         </a>
+        <Search/>
     </header>
 )
 
