@@ -11,7 +11,6 @@ return (
             <h4>${item.price}</h4>
             <h3>Reviews: <br/>{item.reviews}<br/> </h3>
             <h4>Release Date: {item.releasedate}</h4>
-            <button>Remove</button>
         </div>
 )
 

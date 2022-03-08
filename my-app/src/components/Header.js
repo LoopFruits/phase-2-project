@@ -1,5 +1,5 @@
 import React from "react";
-// import Search from "./Search";
+import Search from "./Search";
 function Header() {
 
 return (
@@ -7,6 +7,7 @@ return (
         <h1>
           Justin's Personal Vinyl Collection
         </h1>
+        <Search />
     </header>
 )
 
