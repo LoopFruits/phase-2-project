@@ -27,7 +27,7 @@ function App() {
   return (
     <div class="App">
       <Header handleSearch={setSearch} />
-      <div className="body">
+      <div className="body-center">
         <div className="body--left">
           <SelectionContainerList />
         </div>

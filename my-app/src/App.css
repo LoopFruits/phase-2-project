@@ -56,11 +56,11 @@
   border: 1px solid black;
   border-radius: 4px;
   background-color: white;
-  /* align-items: center; */
   padding:1rem;
-  /* display:grid;
-  grid-template-columns: repeat(auto-fit) minmax(100px, 1ft);
-  grid-gap:3em; */
+  width:300px;
+  height:500px;
+  margin-bottom: 20px;
+
 }
 .card img {
   width:6em;
@@ -117,7 +117,7 @@
   height: 250px;
 }
 
-.body {
+.body-center {
   display: flex;
 }
 
@@ -129,4 +129,7 @@
 .body--right {
   border: 1px solid purple;
   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
