@@ -109,6 +109,46 @@
       "genre": "Pop",
       "price": "20.00",
       "releasedate": "1/23/2001"
+    },
+    {
+      "id": 12,
+      "artist": "Jon Hopkins",
+      "album": "Singularity",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/JonHopkinsSingularityAlbumCover.jpg/220px-JonHopkinsSingularityAlbumCover.jpg",
+      "reviews": "From the beginning this is music that sweeps the listener away",
+      "genre": "Electronic",
+      "price": "21,47",
+      "releasedate": "5/4/2018"
+    },
+    {
+      "id": 13,
+      "artist": "Ludacris",
+      "album": "The Red Light District",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/TheRedLightDistrictLudacris.jpg/220px-TheRedLightDistrictLudacris.jpg",
+      "reviews": "This entire album brings me back",
+      "genre": "Hip-Hop",
+      "price": "17.17",
+      "releasedate": "12/7/2004"
+    },
+    {
+      "id": 14,
+      "artist": "Mumford & Sons",
+      "album": "Sign NoMore ",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Mumfordsonssighnomore.jpg/220px-Mumfordsonssighnomore.jpg",
+      "reviews": "Just listened to a folk album, who would have though?",
+      "genre": "Indie Folk",
+      "price": "9.99",
+      "releasedate": "10/2/2009"
+    },
+    {
+      "id": 15,
+      "artist": "Childish Gambino",
+      "album": "Awaken, My Love!",
+      "image": "https://media.pitchfork.com/photos/5929bfdcc0084474cd0c30d7/1:1/w_600/33796b07.jpg",
+      "reviews": "His best album in my opinion",
+      "genre": "Soul/R&B",
+      "price": "26.78",
+      "releasedate": "12/2/2016"
     }
   ]
 }
