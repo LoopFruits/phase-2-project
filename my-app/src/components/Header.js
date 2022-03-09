@@ -1,6 +1,6 @@
 import React from "react";
 import Search from "./Search";
-
+import Cart from "./Cart";
 function Header({ handleSearch }) {
 
 return (
@@ -8,7 +8,8 @@ return (
         <h1>
           Justin's Personal Vinyl Collection
         </h1>
-        <Search handleSearch={handleSearch} />
+        <Cart/>
+        <Search handleSearch={handleSearch} /> 
     </header>
 )
 
