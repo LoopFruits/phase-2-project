@@ -10,7 +10,7 @@ return (
             <h2>{item.artist}</h2>
             <h2>{item.album}</h2>
             <h4>${item.price}</h4>
-            <h3>Reviews: <br/>{item.reviews}<br/> </h3>
+            <h3>Likes: <br/>{item.likes}<br/> </h3>
             <h4>Release Date: {item.releasedate}</h4>
         </div>
 )
