@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FiThumbsUp, FiThumbsDown } from "react-icons/fi"
 
 
 function VinylCard({ item }) {
+
+    const [countUp, setCountUp] = useState(0)
+    const [countDown, setCountDown] = useState(0)
 
 
 return (
@@ -12,6 +16,15 @@ return (
             <h4>${item.price}</h4>
             <h3>Likes: <br/>{item.likes}<br/> </h3>
             <h4>Release Date: {item.releasedate}</h4>
+
+            <button 
+                onClick={() => setCountUp(countUp + 1)}><FiThumbsUp />{`${countUp === 0 ? "" : countUp}`}
+            </button>   
+            
+            <button 
+                onClick={() => setCountDown(countDown + 1)}><FiThumbsDown />{`${countDown === 0 ? "" : countDown}`}
+            </button>
+
         </div>
 )
 
