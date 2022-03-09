@@ -4,7 +4,7 @@ import Cart from "./Cart";
 function Header({ handleSearch }) {
 
 return (
-    <header class ="App-header">
+    <header className ="App-header">
         <h1>
           Justin's Personal Vinyl Collection
         </h1>

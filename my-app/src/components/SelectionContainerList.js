@@ -3,7 +3,7 @@ import React from 'react';
 function SelectionContainerList() {
 
     return (
-        <div class="SelectionContainer">
+        <div className="SelectionContainer">
             
             <h2>Justin's favorite</h2>
             <h2>Genre</h2>

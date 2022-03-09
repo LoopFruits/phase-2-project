@@ -13,7 +13,7 @@ function App() {
   const[search, setSearch] = useState("")   
     
   useEffect( () => {
-      fetch("http://localhost:3000/vinyls")
+      fetch("http://localhost:8002/vinyls")
       .then(resp => resp.json())
       .then(item => setVinyls(item))
   },[]);
@@ -25,7 +25,7 @@ function App() {
   
 
   return (
-    <div class="App">
+    <div className="App">
       <Header handleSearch={setSearch} />
       <div className="body-center">
         <div className="body--left">
