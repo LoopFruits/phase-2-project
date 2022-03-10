@@ -3,7 +3,7 @@ import Search from "./Search";
 import Cart from "./Cart";
 
 
-function Header({ handleSearch, vinyls }) {
+function Header({ handleSubmit, handleSearchTerm, vinyls }) {
 
 
 
@@ -13,7 +13,11 @@ return (
         <img src={require('../Images/Logo.gif')} alt="loading..." /> 
         </h1>
         <Cart/>
-        <Search handleSearch={handleSearch} vinyls={vinyls} /> 
+        <Search 
+          handleSearchTerm={handleSearchTerm} 
+          vinyls={vinyls} 
+          handleSubmit={handleSubmit}
+        /> 
     </header>
 )
 

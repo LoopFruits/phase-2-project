@@ -7,35 +7,37 @@ function VinylCard({ item }) {
     const [countUp, setCountUp] = useState(0);
     const [countDown, setCountDown] = useState(0);
 
-    const likesOne = {
-        likes: countUp
-    };
+    function onLikesClick(event, status) {
+        if (status === 'plus') {
+            setCountUp(countUp + 1)
+        }
 
-    // const dislikes = {
-    //     dislikes: countDown
-    // };
+        if (status === 'minus') {
+            setCountDown(countDown + 1)
+        }
+        
+        const updatedData = {
+            likes: countUp,
+            dislikes: countDown
+        }
 
-
-    function onLikesClick(event) {
         event.stopPropagation()
         fetch(`http://localhost:8002/vinyls/${item.id}`, {
             method: "PATCH", 
             headers: {
                 "Content-Type": "application/json",
                 },
-                body: JSON.stringify(likesOne)
+                body: JSON.stringify(updatedData)
         })
         .then(response => response.json())
-        .then(data => setCountUp(data))
-        increaseLikes(countUp)
-        console.log("Hello")
+        .then(data => data)
     }
 
-
-    function increaseLikes() {
-        const likesPlus = countUp === 0 ? "" : countUp + 1
-        return setCountUp(likesPlus) 
-    }
+    // function increaseLikes() {
+    //     console.log(countUp.likes);
+    //     const likesPlus = countUp.likes === 0 ? "" : countUp.likes + 1
+    //     return setCountUp(likesPlus) 
+    // }
 
 
 
@@ -45,13 +47,12 @@ return (
         <h2>{item.artist}</h2>
         <h2>{item.album}</h2>
         <h4>${item.price}</h4>
-        <h3>Likes: <br/>{item.likes}<br/> </h3>
         <h4>Release Date: {item.releasedate}</h4>
         <button 
-            onClick={onLikesClick}><FiThumbsUp />
+            onClick={(event)=>onLikesClick(event, 'plus')}><FiThumbsUp />{`${countUp === 0 ? "" : countUp}`}
         </button>              
         <button 
-            onClick={() => setCountDown(countDown + 1)}><FiThumbsDown />{`${countDown === 0 ? "" : countDown}`}
+            onClick={(event)=>onLikesClick(event, 'minus')}><FiThumbsDown />{`${countDown === 0 ? "" : countDown}`}
         </button>
     </div>
 )

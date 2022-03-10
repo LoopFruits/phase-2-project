@@ -5,7 +5,7 @@ function SelectionContainerList() {
     return (
         <div className="SelectionContainer">
             
-            <h2>Justin's favorite</h2>
+            <h2>Justin's Favorites</h2>
             <h2>Genre</h2>
             <h2>Artist</h2>
             <h2>Album</h2>

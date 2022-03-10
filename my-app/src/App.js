@@ -10,22 +10,42 @@ import Footer from "./components/Footer";
 function App() {
 
   const[vinyls, setVinyls] = useState([]) 
-  // const[search, setSearch] = useState("")  
+  const[search, setSearch] = useState("")  
 
   useEffect( () => {
     fetch("http://localhost:8002/vinyls")
     .then(resp => resp.json())
-    .then(item => setVinyls(item))
-  },[]);
+    .then(items => {
+      if (search.length > 0) {
+        const filterVinyls = items.filter((item) => {
+          return item.artist?.toLowerCase().includes(search.toLowerCase())
+        })
+        setVinyls(filterVinyls);
+      } else {
+        setVinyls(items);
+      }
+    })
+  },[search]);
 
-//   const filterVinyls = vinyls.filter((item) => {
-//     return item.artist.toLowerCase().includes(search.toLowerCase())
-// })
-  
+  const handleSearchTerm = (event) => {
+    setSearch(event.target.value)
+  }
+
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    const filterVinyls = vinyls.filter((item) => {
+      return item.artist?.toLowerCase().includes(search.toLowerCase())
+    })
+    setVinyls(filterVinyls);
+  }
 
   return (
     <div className="App">
-      <Header vinyls={vinyls} />
+      <Header
+        vinyls={vinyls}
+        handleSearchTerm={handleSearchTerm}
+        handleSubmit={handleSubmit}
+      />
       <div className="body-center">
         <div className="body--left">
           <SelectionContainerList />
