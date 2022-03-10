@@ -1,15 +1,16 @@
 import React from 'react';
+import Favorites from './Favorites';
+import Inventory from './Inventory';
+import Miscellaneous from './Miscellaneous';
 
 function SelectionContainerList() {
 
     return (
         <div className="SelectionContainer">
             
-            <h2>Justin's Favorites</h2>
-            <h2>Genre</h2>
-            <h2>Artist</h2>
-            <h2>Album</h2>
-            <h2>Miscellaneous</h2>
+            <Favorites />
+            <Inventory />
+            <Miscellaneous />
         </div>
     )
 
