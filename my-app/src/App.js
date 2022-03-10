@@ -49,7 +49,7 @@ function App() {
       />
       <div className="body-center">
         <div className="body--left">
-          <SelectionContainerList />
+          <SelectionContainerList vinyls={vinyls} />
         </div>
         <div className="body--right">
           <VinylContainer vinyls={vinyls} />

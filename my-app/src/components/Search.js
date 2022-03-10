@@ -7,7 +7,6 @@ function Search({ handleSubmit , handleSearchTerm}) {
                 type="text"
                 id="search"
                 placeholder="Search Justin's Belongings..."
-                // value={search}
                 onChange={(event)=>handleSearchTerm(event)}
             />
         <button type="submit">🔍</button>

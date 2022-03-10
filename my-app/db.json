@@ -5,11 +5,12 @@
       "artist": "Kendrick Lamar",
       "album": "Good Kid, M.A.A.D City",
       "image": "https://merchbar.imgix.net/product/337/9912/mcm-lp7192267/aHYzA2_551CgMxpH7RL._SX425_.jpg?quality=60&auto=compress,format&w=640&h=640",
-      "likes": 4,
+      "likes": 0,
       "dislikes": 0,
       "genre": "Rap/Hip Hop",
       "price": "23.98",
-      "releasedate": "10/12/2012"
+      "releasedate": "10/12/2012",
+      "reviews": "good"
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "dislikes": 0,
       "genre": "Rap/Hip-Hop",
       "price": "24.08",
-      "releasedate": "9/15/2009"
+      "releasedate": "9/15/2009",
+      "reviews": ""
     },
     {
       "id": 3,
@@ -31,7 +33,8 @@
       "dislikes": 0,
       "genre": "Rap/Hip-Hop",
       "price": "14.43",
-      "releasedate": "3/6/2020"
+      "releasedate": "3/6/2020",
+      "reviews": ""
     },
     {
       "id": 4,
@@ -42,7 +45,8 @@
       "dislikes": 0,
       "genre": "Rock",
       "price": "26.75",
-      "releasedate": "7/17/2015"
+      "releasedate": "7/17/2015",
+      "reviews": ""
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       "dislikes": 0,
       "genre": "Rock",
       "price": "20.69",
-      "releasedate": "9/13/2019"
+      "releasedate": "9/13/2019",
+      "reviews": ""
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       "dislikes": 0,
       "genre": "Electronic",
       "price": "24.08",
-      "releasedate": "6/12/2020"
+      "releasedate": "6/12/2020",
+      "reviews": ""
     },
     {
       "id": 7,
@@ -75,7 +81,8 @@
       "dislikes": 0,
       "genre": "Funk/Soul",
       "price": "33.32",
-      "releasedate": "April 20,1978"
+      "releasedate": "April 20,1978",
+      "reviews": ""
     },
     {
       "id": 8,
@@ -86,7 +93,8 @@
       "dislikes": 0,
       "genre": "Soul/R&B",
       "price": "11.88",
-      "releasedate": "11/18/2016"
+      "releasedate": "11/18/2016",
+      "reviews": ""
     },
     {
       "id": 9,
@@ -97,7 +105,8 @@
       "dislikes": 0,
       "genre": "Jazz",
       "price": "34.80",
-      "releasedate": "5/17/2013"
+      "releasedate": "5/17/2013",
+      "reviews": ""
     },
     {
       "id": 10,
@@ -108,7 +117,8 @@
       "dislikes": 0,
       "genre": "Jazz Fusion",
       "price": "40.00",
-      "releasedate": "2/25/2014"
+      "releasedate": "2/25/2014",
+      "reviews": ""
     },
     {
       "id": 11,
@@ -119,7 +129,8 @@
       "dislikes": 0,
       "genre": "Pop",
       "price": "20.00",
-      "releasedate": "1/23/2001"
+      "releasedate": "1/23/2001",
+      "reviews": ""
     },
     {
       "id": 12,
@@ -130,7 +141,8 @@
       "dislikes": 0,
       "genre": "Electronic",
       "price": "21,47",
-      "releasedate": "5/4/2018"
+      "releasedate": "5/4/2018",
+      "reviews": ""
     },
     {
       "id": 13,
@@ -141,7 +153,8 @@
       "dislikes": 0,
       "genre": "Hip-Hop",
       "price": "17.17",
-      "releasedate": "12/7/2004"
+      "releasedate": "12/7/2004",
+      "reviews": ""
     },
     {
       "id": 14,
@@ -152,7 +165,8 @@
       "dislikes": 0,
       "genre": "Indie Folk",
       "price": "9.99",
-      "releasedate": "10/2/2009"
+      "releasedate": "10/2/2009",
+      "reviews": ""
     },
     {
       "id": 15,
@@ -163,7 +177,8 @@
       "dislikes": 0,
       "genre": "Soul/R&B",
       "price": "26.78",
-      "releasedate": "12/2/2016"
+      "releasedate": "12/2/2016",
+      "reviews": ""
     }
   ]
 }
