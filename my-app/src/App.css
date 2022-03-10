@@ -70,7 +70,7 @@
 
 .searchbar {
   flex: 1 1 auto;
-  margin: 0 1rem;
+  margin: 0 25px 0 auto;
   display: flex;
   justify-content: center;
 }
@@ -131,11 +131,16 @@
 .body--right {
   border: 1px solid purple;
   width: 80%;
+}
+
+.cardHolder {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.CartBttn {
-  align-items: relative;
 
+.CartBttn {
+  margin: 0px 25px 25px auto;
+  width: 40px;
+  height: 40px;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import VinylCard from "./VinylCard"
+import VinylCard from "./VinylCard";
 
 
 function VinylContainer({ vinyls }) {
@@ -8,11 +8,10 @@ function VinylContainer({ vinyls }) {
         return  <VinylCard key={item.id} item={item}  />
     })
 
-
     return(
         <div className="VinylContainer" >
             <h2>Current Inventory</h2>
-            <div>
+            <div className="cardHolder">
                 {showVinyls}
             </div>
         </div>

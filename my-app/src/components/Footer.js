@@ -8,9 +8,6 @@ function Footer() {
             THIS IS THE FOOTER
         </div>
     )
-
-
-
 }
 
 export default Footer;

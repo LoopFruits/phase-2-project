@@ -9,30 +9,29 @@ import Footer from "./components/Footer";
 
 function App() {
 
-  const[vinyls, setVinyls] = useState([])
-  const[search, setSearch] = useState("")   
-    
-  useEffect( () => {
-      fetch("http://localhost:8002/vinyls")
-      .then(resp => resp.json())
-      .then(item => setVinyls(item))
-  },[]);
-  
-  const filterVinyls = vinyls.filter((item) => {
-    return item.artist.toLowerCase().includes(search.toLowerCase())
-  })
+  const[vinyls, setVinyls] = useState([]) 
+  const[search, setSearch] = useState("")  
 
+  useEffect( () => {
+    fetch("http://localhost:8002/vinyls")
+    .then(resp => resp.json())
+    .then(item => setVinyls(item))
+  },[]);
+
+//   const filterVinyls = vinyls.filter((item) => {
+//     return item.artist.toLowerCase().includes(search.toLowerCase())
+// })
   
 
   return (
     <div className="App">
-      <Header handleSearch={setSearch} />
+      <Header handleSearch={setSearch} vinyls={vinyls} />
       <div className="body-center">
         <div className="body--left">
           <SelectionContainerList />
         </div>
         <div className="body--right">
-          <VinylContainer vinyls={filterVinyls} />
+          <VinylContainer vinyls={vinyls} />
           <Footer />
         </div>
       </div>
