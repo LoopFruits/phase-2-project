@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 function App() {
 
   const[vinyls, setVinyls] = useState([]) 
-  const[search, setSearch] = useState("")  
+  // const[search, setSearch] = useState("")  
 
   useEffect( () => {
     fetch("http://localhost:8002/vinyls")
@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header handleSearch={setSearch} vinyls={vinyls} />
+      <Header vinyls={vinyls} />
       <div className="body-center">
         <div className="body--left">
           <SelectionContainerList />
