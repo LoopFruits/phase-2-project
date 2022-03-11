@@ -39,17 +39,17 @@ function VinylCard({ item }) {
     function handleFormSubmit(event) {
         event.preventDefault()
         const updatedReviews = {
-            reviews: review
+            reviews: [item.reviews,"\n", review]
         }
         fetch(`http://localhost:8002/vinyls/${item.id}`, {
-            method: "POST", 
+            method: "PATCH", 
             headers: {
                 "Content-Type": "application/json",
                 },
             body: JSON.stringify(updatedReviews)
         })
         .then(response => response.json())
-        .then(data => setReview([...review, data]))
+        .then(data => setReview(updatedReviews))
     }
 
 

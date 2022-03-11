@@ -10,7 +10,11 @@
       "genre": "Rap/Hip Hop",
       "price": "23.98",
       "releasedate": "10/12/2012",
-      "reviews": "good"
+      "reviews": [
+        "good",
+        "\n",
+        "good1"
+      ]
     },
     {
       "id": 2,

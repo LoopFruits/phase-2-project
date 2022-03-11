@@ -1,19 +1,18 @@
 import React from 'react';
-// import VinylCard from './VinylCard';
+import VinylContainer from './VinylContainer';
 
 function Favorites({vinyls}){
 
-    // const faveList = vinyls.slice(1,3)
-
-    // const showVinyls = vinyls.map((item) => {
-        
-    // })
+    const  faveList = vinyls.slice(1,3)
+    console.log(faveList)
 
     return (
-        <div>
-            Favorites
-            
+        <div className='body--right'>
+            <div>
+                <VinylContainer vinyls={faveList} />           
+            </div>
         </div>
+
     )
 }
 
