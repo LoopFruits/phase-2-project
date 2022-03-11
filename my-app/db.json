@@ -9,12 +9,7 @@
       "dislikes": 0,
       "genre": "Rap/Hip Hop",
       "price": "23.98",
-      "releasedate": "10/12/2012",
-      "reviews": [
-        "good",
-        "\n",
-        "good1"
-      ]
+      "releasedate": "10/12/2012"
     },
     {
       "id": 2,
@@ -25,8 +20,7 @@
       "dislikes": 0,
       "genre": "Rap/Hip-Hop",
       "price": "24.08",
-      "releasedate": "9/15/2009",
-      "reviews": ""
+      "releasedate": "9/15/2009"
     },
     {
       "id": 3,
@@ -37,8 +31,7 @@
       "dislikes": 0,
       "genre": "Rap/Hip-Hop",
       "price": "14.43",
-      "releasedate": "3/6/2020",
-      "reviews": ""
+      "releasedate": "3/6/2020"
     },
     {
       "id": 4,
@@ -49,8 +42,7 @@
       "dislikes": 0,
       "genre": "Rock",
       "price": "26.75",
-      "releasedate": "7/17/2015",
-      "reviews": ""
+      "releasedate": "7/17/2015"
     },
     {
       "id": 5,
@@ -61,8 +53,7 @@
       "dislikes": 0,
       "genre": "Rock",
       "price": "20.69",
-      "releasedate": "9/13/2019",
-      "reviews": ""
+      "releasedate": "9/13/2019"
     },
     {
       "id": 6,
@@ -73,8 +64,7 @@
       "dislikes": 0,
       "genre": "Electronic",
       "price": "24.08",
-      "releasedate": "6/12/2020",
-      "reviews": ""
+      "releasedate": "6/12/2020"
     },
     {
       "id": 7,
@@ -85,8 +75,7 @@
       "dislikes": 0,
       "genre": "Funk/Soul",
       "price": "33.32",
-      "releasedate": "April 20,1978",
-      "reviews": ""
+      "releasedate": "April 20,1978"
     },
     {
       "id": 8,
@@ -97,8 +86,7 @@
       "dislikes": 0,
       "genre": "Soul/R&B",
       "price": "11.88",
-      "releasedate": "11/18/2016",
-      "reviews": ""
+      "releasedate": "11/18/2016"
     },
     {
       "id": 9,
@@ -109,8 +97,7 @@
       "dislikes": 0,
       "genre": "Jazz",
       "price": "34.80",
-      "releasedate": "5/17/2013",
-      "reviews": ""
+      "releasedate": "5/17/2013"
     },
     {
       "id": 10,
@@ -121,8 +108,7 @@
       "dislikes": 0,
       "genre": "Jazz Fusion",
       "price": "40.00",
-      "releasedate": "2/25/2014",
-      "reviews": ""
+      "releasedate": "2/25/2014"
     },
     {
       "id": 11,
@@ -133,8 +119,7 @@
       "dislikes": 0,
       "genre": "Pop",
       "price": "20.00",
-      "releasedate": "1/23/2001",
-      "reviews": ""
+      "releasedate": "1/23/2001"
     },
     {
       "id": 12,
@@ -145,8 +130,7 @@
       "dislikes": 0,
       "genre": "Electronic",
       "price": "21,47",
-      "releasedate": "5/4/2018",
-      "reviews": ""
+      "releasedate": "5/4/2018"
     },
     {
       "id": 13,
@@ -157,8 +141,7 @@
       "dislikes": 0,
       "genre": "Hip-Hop",
       "price": "17.17",
-      "releasedate": "12/7/2004",
-      "reviews": ""
+      "releasedate": "12/7/2004"
     },
     {
       "id": 14,
@@ -169,8 +152,7 @@
       "dislikes": 0,
       "genre": "Indie Folk",
       "price": "9.99",
-      "releasedate": "10/2/2009",
-      "reviews": ""
+      "releasedate": "10/2/2009"
     },
     {
       "id": 15,
@@ -181,8 +163,63 @@
       "dislikes": 0,
       "genre": "Soul/R&B",
       "price": "26.78",
-      "releasedate": "12/2/2016",
-      "reviews": ""
+      "releasedate": "12/2/2016"
+    },
+    {
+      "id": 16,
+      "artist": "J.Cole",
+      "album": "2104 Forest Hills Drive",
+      "image": "https://m.media-amazon.com/images/I/71v0b7YG+zL._SX425_.jpg",
+      "likes": 0,
+      "dislikes": 0,
+      "genre": "Hip-Hop",
+      "price": "22.78",
+      "releasedate": "12/9/2014"
+    },
+    {
+      "id": 17,
+      "artist": "Ye",
+      "album": "Graduation",
+      "image": "https://m.media-amazon.com/images/I/513umLvRc8L._SX425_.jpg",
+      "likes": 0,
+      "dislikes": 0,
+      "genre": "Hip-Hop",
+      "price": "29.78",
+      "releasedate": "9/11/2007"
+    },
+    {
+      "id": 18,
+      "artist": "blink-182",
+      "album": "Enema Of The State",
+      "image": "https://m.media-amazon.com/images/I/71XGwy-GItL._SX425_.jpg",
+      "likes": 0,
+      "dislikes": 0,
+      "genre": "Pop-punk",
+      "price": "47.30",
+      "releasedate": "06/01/1999"
+    },
+    {
+      "id": 19,
+      "artist": "Anderson .Paak",
+      "album": "Silicon Valley",
+      "image": "https://cdn.shopify.com/s/files/1/0275/7403/products/anderson-paak-malibu-vinyl-605679_800x.jpg?v=1645470297",
+      "likes": 0,
+      "dislikes": 0,
+      "genre": "R&B/Soul",
+      "price": "65.00",
+      "releasedate": "1/15/2016"
+    },
+    {
+      "id": 20,
+      "artist": "J Balvin, Bad Bunny",
+      "album": "OASIS",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/J_Balvin_and_Bad_Bunny_-_Oasis.png?20190628041916",
+      "likes": 0,
+      "dislikes": 0,
+      "genre": "Reggaeton",
+      "price": "20.00",
+      "releasedate": "06/28/2019"
     }
+
   ]
 }
