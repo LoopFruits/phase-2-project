@@ -219,7 +219,18 @@
       "genre": "Reggaeton",
       "price": "20.00",
       "releasedate": "06/28/2019"
-    }
+    },
+    {
+      "id": 21,
+      "artist": "Nicky Jam",
+      "album": "Fenix",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/Nicky_Jam_Fenix.jpg?20170222210220",
+      "likes": 0,
+      "dislikes": 0,
+      "genre": "Reggaeton",
+      "price": "21.00",
+      "releasedate": "01/20/2017"
 
+    }
   ]
 }
