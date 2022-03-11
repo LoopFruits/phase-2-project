@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Search from "./Search";
-// import Cart from "./Cart";
 import { AiOutlineShoppingCart } from "react-icons/ai"
-// import { Route, Switch } from "react-router-dom";
 
 
 function Header({ handleSubmit, handleSearchTerm, vinyls, onAddItem, handleFormSubmit }) {
@@ -29,8 +27,12 @@ return (
           handleSubmit={handleSubmit}
         /> 
     </header>
-    {/* <div className="add-vinyl-img">
-      <img src={require('../Images/AddAVinyl.png')} alt="loading..." height="300px" />
+    <div className="add-vinyl-img">
+      <img src={require('../Images/ProjectHeader.gif')} alt="add vinyl" height="300px" />
+    </div>
+    
+    {/* <div className="purchase-img">
+      <img src={require('../Images/Purchase.gif')} alt="purchase" height="300px" />
     </div> */}
 
     <form className="Footer" onSubmit={(e)=>{handleFormSubmit(e)}}>

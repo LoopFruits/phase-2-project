@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white; 
+  color: rgb(255, 255, 255); 
 }
 .App-logo {
   height: 40vmin;
@@ -31,6 +31,15 @@
   position: relative;
   bottom: 600px;
 } */
+.j-fave{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 300%;
+}
+.c-inventory{
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 300%;
+}
 .welcomePage {
   display: block;
   margin-left: auto;
@@ -42,13 +51,17 @@
   font-family: 'Bebas Neue', cursive;
   font-size: 130%;
 }
+.misc-stuff {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 110% ;
+}
 .card {
   font-family: 'Bebas Neue', cursive;
   font-size: 110% ;
   display: inline-block;
-  border: 2px solid #F4D504;
+  border: 2px solid #010101;
   border-radius: 4px;
-  background-color: grey;
+  background-color: #7e608ed2;
   padding:1rem;
   width:300px;
   height:500px;
@@ -79,17 +92,24 @@
 .searchbar button {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   flex: 1 1 auto;
-  margin: 0 1rem;
-  padding: 0 0.25rem;
+  /* margin: 0 1rem; */
+  /* padding: 0 0.25rem; */
   background: white;
   border: 1px solid #ccc;
   border-radius: 3px;
-  height: 2rem;
+  /* height: 2rem; */
 }
 .add-vinyl-img{
   height: 310px;
   float: right;
   margin-right: 1250px;
+}
+.purchase-img{
+  height: 310px;
+  position: relative;
+  top: -50px;
+  float: left;
+  margin-left: 1250px;
 }
 .body-center {
   display: flex;
@@ -105,12 +125,35 @@
   height: 40px;
 }
 .Footer {
+  font-family: 'Bebas Neue', cursive;
   margin: 20px;
   width: 100px;
 }
 .Footer button {
   margin-top: 20px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.artist {
+  font-size: 20px;
+}
+.album {
+  font-size: 20px;
+}
+.image {
+  font-size: 20px;
+}
+.genre {
+  font-size: 20px;
+}
+.price {
+  font-size: 20px;
+}
+.releasedate {
+  font-size: 20px;
+}
+.bttn-card {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
 }
 .home-link{
   font-family: 'Bebas Neue';

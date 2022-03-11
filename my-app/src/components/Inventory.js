@@ -9,7 +9,7 @@ function Inventory({vinyls}) {
 
     return(
         <div className="VinylContainer" >
-            <h2>Current Inventory</h2>
+            <h2 className='c-inventory'><center>Current Inventory</center></h2>
             <div className="cardHolder">
                 {showVinyls}
             </div>

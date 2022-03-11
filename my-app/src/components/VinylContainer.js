@@ -10,7 +10,7 @@ function VinylContainer({ vinyls }) {
 
     return(
         <div className="vinyl-container" >
-            <h2>Justin's Favorites</h2>
+            <h2 className='j-fave'>Justin's Favorites</h2>
             <div className="cardHolder">
                 {showVinyls}
             </div>

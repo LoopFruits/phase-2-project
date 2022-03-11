@@ -7,7 +7,7 @@ function Miscellaneous() {
 
   return (
     <div className='misc-stuff'>
-      <h1>Justin's Miscellaneous Stuff</h1>
+      <h1><center>Justin's Miscellaneous Stuff</center></h1>
 
       <div>
         <h2>Justin's Bed</h2>
