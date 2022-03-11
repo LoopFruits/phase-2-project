@@ -9,7 +9,8 @@
       "dislikes": 0,
       "genre": "Rap/Hip Hop",
       "price": "23.98",
-      "releasedate": "10/12/2012"
+      "releasedate": "10/12/2012",
+      "reviews": ""
     },
     {
       "id": 2,
@@ -129,7 +130,7 @@
       "likes": 0,
       "dislikes": 0,
       "genre": "Electronic",
-      "price": "21,47",
+      "price": "21.47",
       "releasedate": "5/4/2018"
     },
     {

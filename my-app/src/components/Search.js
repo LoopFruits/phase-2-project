@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiSearch } from "react-icons/fi";
 
 function Search({ handleSubmit , handleSearchTerm}) {    
     return (
@@ -9,7 +10,7 @@ function Search({ handleSubmit , handleSearchTerm}) {
                 placeholder="Search Justin's Belongings..."
                 onChange={(event)=>handleSearchTerm(event)}
             />
-        <button type="submit">🔍</button>
+        <button type="submit"> <FiSearch /></button>
         </form>
     );
     }

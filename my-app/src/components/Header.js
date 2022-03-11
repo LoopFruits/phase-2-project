@@ -29,6 +29,9 @@ return (
           handleSubmit={handleSubmit}
         /> 
     </header>
+    {/* <div className="add-vinyl-img">
+      <img src={require('../Images/AddAVinyl.png')} alt="loading..." height="300px" />
+    </div> */}
 
     <form className="Footer" onSubmit={(e)=>{handleFormSubmit(e)}}>
         <div className='artist'>

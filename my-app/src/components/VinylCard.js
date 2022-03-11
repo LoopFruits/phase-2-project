@@ -6,7 +6,7 @@ function VinylCard({ item }) {
 
     const [countUp, setCountUp] = useState(0);
     const [countDown, setCountDown] = useState(0);
-    const [review, setReview] = useState("");
+    // const [review, setReview] = useState("");
 
     function onLikesClick(event, status) {
         if (status === 'plus') {
@@ -36,21 +36,21 @@ function VinylCard({ item }) {
 
 
 
-    function handleFormSubmit(event) {
-        event.preventDefault()
-        const updatedReviews = {
-            reviews: [item.reviews,"\n", review]
-        }
-        fetch(`http://localhost:8002/vinyls/${item.id}`, {
-            method: "PATCH", 
-            headers: {
-                "Content-Type": "application/json",
-                },
-            body: JSON.stringify(updatedReviews)
-        })
-        .then(response => response.json())
-        .then(data => setReview(updatedReviews))
-    }
+    // function handleFormSubmit(event) {
+    //     event.preventDefault()
+    //     const updatedReviews = {
+    //         reviews: [item.reviews,"\n", review]
+    //     }
+    //     fetch(`http://localhost:8002/vinyls/${item.id}`, {
+    //         method: "PATCH", 
+    //         headers: {
+    //             "Content-Type": "application/json",
+    //             },
+    //         body: JSON.stringify(updatedReviews)
+    //     })
+    //     .then(response => response.json())
+    //     .then(data => setReview(updatedReviews))
+    // }
 
 
 return (
@@ -58,8 +58,8 @@ return (
         <img src={item.image} alt={item.album}></img>
         <h2>{item.artist}</h2>
         <h2>{item.album}</h2>
-        <h4>${item.price}</h4>
-        <h4>Release Date: {item.releasedate}</h4>
+        <h3>${item.price}</h3>
+        <h3>Release Date: {item.releasedate}</h3>
         <h4>{item.reviews}</h4>
         <button 
             onClick={(event)=>onLikesClick(event, 'plus')}><FiThumbsUp />{`${countUp === 0 ? "" : countUp}`}
@@ -68,7 +68,7 @@ return (
             onClick={(event)=>onLikesClick(event, 'minus')}><FiThumbsDown />{`${countDown === 0 ? "" : countDown}`}
         </button>
 
-        <form onSubmit={handleFormSubmit} >
+        {/* <form onSubmit={handleFormSubmit} >
             <div>
                 <label>Review</label>
                 <input id="review" type="review" value={review} onChange={(event) => setReview(event.target.value)} />
@@ -76,10 +76,7 @@ return (
             <div>
                 <button>Submit</button>
             </div>
-        </form>
-
-
-
+        </form> */}
     </div>
 )
 }

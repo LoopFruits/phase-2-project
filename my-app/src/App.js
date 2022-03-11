@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import React, {useEffect, useState} from 'react';
 import Header from "./components/Header";
@@ -6,7 +5,6 @@ import SelectionContainerList from './components/SelectionContainerList';
 // import VinylContainer from './components/VinylContainer';
 // import { Route, Switch } from "react-router-dom";
 // import Search from "./components/Search";
-
 
 function App() {
 

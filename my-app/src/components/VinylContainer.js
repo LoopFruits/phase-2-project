@@ -9,8 +9,8 @@ function VinylContainer({ vinyls }) {
     })
 
     return(
-        <div className="VinylContainer" >
-            <h2>Current Inventory</h2>
+        <div className="vinyl-container" >
+            <h2>Justin's Favorites</h2>
             <div className="cardHolder">
                 {showVinyls}
             </div>
