@@ -2,7 +2,17 @@
 
 ## Justin's Personal Vinyl Collection 
 
-### Description
+
+# Table of Contents 
+*   General info 
+*   Project Demo 
+*   Setup
+*   Features 
+*   Technologies
+*   Contact 
+*   License
+
+### General info
 Our application displays a curated vinyl collection from Justin that allows users to search, and add their own personal favorite Vinyls. 
 
 
@@ -22,3 +32,9 @@ User will be able to:
 -Like or dislike selected vinyl.
 
 -Submit a vinyl to add to Justin's collection. 
+
+
+
+## Technologies
+
+    # React - version 17.0.2
